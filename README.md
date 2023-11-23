@@ -1,8 +1,8 @@
-﻿# EchoBot
+﻿# Welcome Users
 
-Bot Framework v4 echo bot sample.
+Bot Framework v4 welcome users bot sample
 
-This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
+This bot has been created using [Bot Framework](https://dev.botframework.com), is shows how to welcome users when they join the conversation.
 
 ## To try this sample
 
@@ -10,7 +10,7 @@ This bot has been created using [Bot Framework](https://dev.botframework.com), i
 ```bash
 git clone https://github.com/Microsoft/botbuilder-samples.git
 ```
-- In a terminal, navigate to `botbuilder-samples\samples\python\02.echo-bot` folder
+- In a terminal, navigate to `botbuilder-samples\samples\python\03.welcome-user` folder
 - Activate your desired virtual environment
 - In the terminal, type `pip install -r requirements.txt`
 - Run your bot with `python app.py`
@@ -29,7 +29,7 @@ git clone https://github.com/Microsoft/botbuilder-samples.git
 
 ## Interacting with the bot
 
-Enter text in the emulator.  The text will be echoed back by the bot.
+The primary goal when creating any bot is to engage your user in a meaningful conversation. One of the best ways to achieve this goal is to ensure that from the moment a user first connects, they understand your bot’s main purpose and capabilities, the reason your bot was created. See [Send welcome message to users](https://aka.ms/botframework-welcome-instructions) for additional information on how a bot can welcome users to a conversation.
 
 ## Deploy the bot to Azure
 
