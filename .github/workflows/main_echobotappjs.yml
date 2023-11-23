@@ -59,4 +59,4 @@ jobs:
           app-name: 'echobotappJS'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD10A54D2590470E97EC48ACBFB83BBF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4FE054C803574D43A605E306DF8766E5 }}
