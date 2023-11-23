@@ -1,19 +1,43 @@
-﻿# Welcome Users
+# echo-bot
 
-Bot Framework v4 welcome users bot sample
+Bot Framework v4 echo bot sample
 
-This bot has been created using [Bot Framework](https://dev.botframework.com), is shows how to welcome users when they join the conversation.
+This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org) version 16.16.0 or higher
+
+    ```bash
+    # determine node version
+    node --version
+    ```
 
 ## To try this sample
 
 - Clone the repository
-```bash
-git clone https://github.com/Microsoft/botbuilder-samples.git
-```
-- In a terminal, navigate to `botbuilder-samples\samples\python\03.welcome-user` folder
-- Activate your desired virtual environment
-- In the terminal, type `pip install -r requirements.txt`
-- Run your bot with `python app.py`
+
+    ```bash
+    git clone https://github.com/microsoft/botbuilder-samples.git
+    ```
+
+- In a terminal, navigate to `samples/javascript_nodejs/02.echo-bot`
+
+    ```bash
+    cd samples/javascript_nodejs/02.echo-bot
+    ```
+
+- Install modules
+
+    ```bash
+    npm install
+    ```
+
+- Start the bot
+
+    ```bash
+    npm start
+    ```
 
 ## Testing the bot using Bot Framework Emulator
 
@@ -29,7 +53,7 @@ git clone https://github.com/Microsoft/botbuilder-samples.git
 
 ## Interacting with the bot
 
-The primary goal when creating any bot is to engage your user in a meaningful conversation. One of the best ways to achieve this goal is to ensure that from the moment a user first connects, they understand your bot’s main purpose and capabilities, the reason your bot was created. See [Send welcome message to users](https://aka.ms/botframework-welcome-instructions) for additional information on how a bot can welcome users to a conversation.
+Enter text in the emulator.  The text will be echoed back by the bot.
 
 ## Deploy the bot to Azure
 
@@ -45,3 +69,5 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 - [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)
 - [Azure Portal](https://portal.azure.com)
 - [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+- [Restify](https://www.npmjs.com/package/restify)
+- [dotenv](https://www.npmjs.com/package/dotenv)
